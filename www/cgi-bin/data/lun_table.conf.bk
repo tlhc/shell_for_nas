@@ -1,0 +1,30 @@
+Lun0|alias=aaa|bl_target=none|vol=/dev/sda|lun_size=250G|lun_rmd_size=100G|"Lun 0 Path=/dev/md0,Type=fileio,"
+Lun1|alias=bbb|bl_target=none|vol=/dev/sdb|lun_size=250G|lun_rmd_size=100G|"Lun 1 Path=/dev/md0,Type=fileio,"
+#Lun2|alias=ccc|bl_target=none|vol=/dev/sdc|lun_size=250G|lun_rmd_size=100G|"Lun 2 Path=/dev/md0,Type=fileio,"
+Lun3|alias=ddd|bl_target=none|vol=/dev/sdd|lun_size=250G|lun_rmd_size=100G|"Lun 0 Path=/dev/md0,Type=fileio,"
+Lun4|alias=eee|bl_target=none|vol=/dev/sde|lun_size=250G|lun_rmd_size=100G|"Lun 1 Path=/dev/md0,Type=fileio,"
+Lun5|alias=fff|bl_target=none|vol=/dev/sdf|lun_size=250G|lun_rmd_size=100G|"Lun 2 Path=/dev/md0,Type=fileio,"
+
+
+#	<table_row>
+#		<lun_alias>
+#		</lun_alias>
+#
+#		<lun_bl_target>
+#		</lun_bl_target> #
+#		<lun_volum>
+#			as id
+#		</lun_volum>
+#
+#		<lun_size>
+#
+#		</lun_size>
+#
+#		<lun_rmd_size>
+#
+#		</lun_rmd_size>
+#
+#	</table_row>
+#
+#</iscsi_lun_table>
+#

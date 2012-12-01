@@ -1,0 +1,115 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+add_value_to_lunT	comm/set_lun_para.sh	/^add_value_to_lunT ()$/;"	f
+addin_message	comm/tools.sh	/^addin_message ()$/;"	f
+build_raid	comm/set_raid_para.sh	/^build_raid ()$/;"	f
+c_local_lun_table	comm/get_lun_info.sh	/^c_local_lun_table ()$/;"	f
+clear_echo_tmpfs	create_echo/c_tools.sh	/^clear_echo_tmpfs ()$/;"	f
+clear_lun_table	comm/set_lun_para.sh	/^clear_lun_table ()$/;"	f
+clear_raid	comm/set_raid_para.sh	/^clear_raid ()$/;"	f
+construct_lun_acc_str	comm/set_lun_para.sh	/^construct_lun_acc_str ()$/;"	f
+create_array	array_emu/create_array.sh	/^create_array ()$/;"	f
+create_echo_file	create_echo/c_echo_header.sh	/^create_echo_file ()$/;"	f
+create_echo_header	create_echo/c_echo_header.sh	/^create_echo_header ()$/;"	f
+create_lun_table	comm/set_lun_para.sh	/^create_lun_table ()$/;"	f
+create_tag_header	create_echo/c_echo_header.sh	/^create_tag_header ()$/;"	f
+create_tag_tail	create_echo/c_echo_header.sh	/^create_tag_tail ()$/;"	f
+del_value_from_lunT	comm/set_lun_para.sh	/^del_value_from_lunT ()$/;"	f
+delete_lun_table	comm/set_lun_para.sh	/^delete_lun_table ()$/;"	f
+filter_in_md_dev	comm/get_disk_info.sh	/^filter_in_md_dev ()$/;"	f
+format_s_disk	comm/tools.sh	/^format_s_disk ()$/;"	f
+gen_e_netcardx	create_echo/c_echo_net.sh	/^gen_e_netcardx ()$/;"	f
+gen_e_netinfo_h	create_echo/c_echo_net.sh	/^gen_e_netinfo_h ()$/;"	f
+gen_e_netinfo_t	create_echo/c_echo_net.sh	/^gen_e_netinfo_t ()$/;"	f
+gen_error_message	create_echo/c_tools.sh	/^gen_error_message ()$/;"	f
+gen_escape_dev	comm/tools.sh	/^gen_escape_dev ()$/;"	f
+gen_iscsi_lun_res	create_echo/c_echo_lun.sh	/^gen_iscsi_lun_res ()$/;"	f
+gen_iscsi_lun_table	create_echo/c_echo_lun.sh	/^gen_iscsi_lun_table ()$/;"	f
+gen_iscsi_table	create_echo/c_echo_iscsi.sh	/^gen_iscsi_table ()$/;"	f
+gen_iscsi_target_conf	create_echo/c_echo_iscsi.sh	/^gen_iscsi_target_conf ()$/;"	f
+gen_iscsi_target_sel	create_echo/c_echo_iscsi.sh	/^gen_iscsi_target_sel ()$/;"	f
+gen_md_dev_T_size	comm/get_raid_info.sh	/^gen_md_dev_T_size ()$/;"	f
+gen_message	create_echo/c_tools.sh	/^gen_message ()$/;"	f
+gen_r_disk_info	create_echo/c_echo_disk.sh	/^gen_r_disk_info ()$/;"	f
+gen_s_disk_info	create_echo/c_echo_disk.sh	/^gen_s_disk_info ()                              # get whole info for s disk$/;"	f
+gen_success_message	create_echo/c_tools.sh	/^gen_success_message ()$/;"	f
+gen_tag_h	create_echo/c_tools.sh	/^gen_tag_h ()                                    # gen header $/;"	f
+gen_tag_t	create_echo/c_tools.sh	/^gen_tag_t ()                                    # gen tail$/;"	f
+gen_tag_value	create_echo/c_tools.sh	/^gen_tag_value ()$/;"	f
+get_access_mode	comm/get_target_info.sh	/^get_access_mode ()$/;"	f
+get_ava_lun_id	comm/get_target_info.sh	/^get_ava_lun_id ()$/;"	f
+get_chap_info	comm/get_target_info.sh	/^get_chap_info ()$/;"	f
+get_dimi_count	comm/tools.sh	/^get_dimi_count ()$/;"	f
+get_disk_brief	comm/get_disk_info.sh	/^get_disk_brief ()$/;"	f
+get_disk_count	comm/get_disk_info.sh	/^get_disk_count ()$/;"	f
+get_disk_fsize	comm/get_disk_info.sh	/^get_disk_fsize ()$/;"	f
+get_disk_label	comm/get_disk_info.sh	/^get_disk_label ()$/;"	f
+get_disk_no	comm/get_disk_info.sh	/^get_disk_no ()$/;"	f
+get_disk_size	comm/get_disk_info.sh	/^get_disk_size ()$/;"	f
+get_format_status	recv/respose_fstatus.sh	/^get_format_status ()$/;"	f
+get_inet_name	create_echo/c_echo_net.sh	/^get_inet_name ()$/;"	f
+get_lun_table_count	comm/get_lun_info.sh	/^get_lun_table_count ()$/;"	f
+get_none_ref_disk	comm/get_lun_info.sh	/^get_none_ref_disk ()$/;"	f
+get_org_disk_info	comm/get_disk_info.sh	/^get_org_disk_info ()$/;"	f
+get_r_path	array_emu/test.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/clear_tfs.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/get_disk_info.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/get_lun_info.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/get_net_info.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/get_raid_info.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/get_target_info.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/set_lun_para.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/set_net_para.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/set_raid_para.sh	/^get_r_path() {$/;"	f
+get_r_path	comm/sys_init.sh	/^get_r_path() {$/;"	f
+get_r_path	create_echo/c_echo_disk.sh	/^get_r_path() {$/;"	f
+get_r_path	create_echo/c_echo_iscsi.sh	/^get_r_path() {$/;"	f
+get_r_path	create_echo/c_echo_lun.sh	/^get_r_path() {$/;"	f
+get_r_path	onload/onload_disk.sh	/^get_r_path() {$/;"	f
+get_r_path	onload/onload_itarget.sh	/^get_r_path() {$/;"	f
+get_r_path	onload/onload_lun.sh	/^get_r_path() {$/;"	f
+get_r_path	onload/onload_net.cgi	/^get_r_path() {$/;"	f
+get_r_path	onload/pre_onload_net.sh	/^get_r_path() {$/;"	f
+get_r_path	recv/respose_clear_raid.sh	/^get_r_path() {$/;"	f
+get_r_path	recv/respose_disk.sh	/^get_r_path() {$/;"	f
+get_r_path	recv/respose_fstatus.sh	/^get_r_path() {$/;"	f
+get_r_path	recv/respose_lun_table.sh	/^get_r_path() {$/;"	f
+get_r_path	recv/respose_net.sh	/^get_r_path() {$/;"	f
+get_r_path	recv/respose_tgt_sel.sh	/^get_r_path() {$/;"	f
+get_raid_count	comm/get_raid_info.sh	/^get_raid_count ()$/;"	f
+get_raid_g_dev_count	comm/get_raid_info.sh	/^get_raid_g_dev_count ()$/;"	f
+get_raid_label	comm/get_raid_info.sh	/^get_raid_label ()$/;"	f
+get_raid_lv	comm/get_raid_info.sh	/^get_raid_lv ()$/;"	f
+get_raid_no_g	comm/get_raid_info.sh	/^get_raid_no_g ()$/;"	f
+get_raid_releate_disk	comm/get_raid_info.sh	/^get_raid_releate_disk ()$/;"	f
+get_raid_status	comm/get_raid_info.sh	/^get_raid_status ()$/;"	f
+get_run_path	comm/tools.sh	/^get_run_path ()$/;"	f
+get_run_path_old	comm/tools.sh	/^get_run_path_old ()$/;"	f
+get_sepc_lun_table_id	comm/get_target_info.sh	/^get_sepc_lun_table_id ()$/;"	f
+get_spec_lun_no	comm/get_target_info.sh	/^get_spec_lun_no ()$/;"	f
+get_spec_target_alias	comm/get_target_info.sh	/^get_spec_target_alias ()$/;"	f
+get_target_alias	comm/get_target_info.sh	/^get_target_alias()$/;"	f
+get_target_brief	comm/get_target_info.sh	/^get_target_brief ()$/;"	f
+get_target_chap	comm/get_target_info.sh	/^get_target_chap ()$/;"	f
+get_target_count	comm/get_target_info.sh	/^get_target_count ()$/;"	f
+get_target_luns	comm/get_target_info.sh	/^get_target_luns ()$/;"	f
+get_target_name	comm/get_target_info.sh	/^get_target_name ()$/;"	f
+getlength	array_emu/getlen.sh	/^getlength()$/;"	f
+init_sys_disk_para	comm/sys_init.sh	/^init_sys_disk_para ()                           # indicate for the boot dev$/;"	f
+is_target_chap	comm/get_target_info.sh	/^is_target_chap ()$/;"	f
+onload_net	onload/onload_net.cgi	/^onload_net ()$/;"	f
+response_info	onload/onload_disk.sh	/^response_info ()$/;"	f
+response_info	onload/onload_itarget.sh	/^response_info ()$/;"	f
+response_lun	onload/onload_lun.sh	/^response_lun ()$/;"	f
+rm_file	comm/tools.sh	/^rm_file ()$/;"	f
+start_raid	comm/set_raid_para.sh	/^start_raid ()$/;"	f
+stop_raid	comm/set_raid_para.sh	/^stop_raid ()$/;"	f
+touch_file	comm/tools.sh	/^touch_file ()                                   # 0 for success$/;"	f
+trim_c_s_b	comm/tools.sh	/^trim_c_s_b ()$/;"	f
+verify_disk_files	onload/onload_disk.sh	/^verify_disk_files ()$/;"	f
+verify_disk_files	onload/onload_itarget.sh	/^verify_disk_files ()$/;"	f
+verify_net_files	onload/onload_net.cgi	/^verify_net_files ()$/;"	f

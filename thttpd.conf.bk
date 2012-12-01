@@ -1,0 +1,21 @@
+# This section overrides defaults
+
+#dir=/home/weiping/project/jffs2.bak.2010-01-08-release/www
+dir=/mnt/jffs2/www
+#chroot
+nochroot
+user=root
+logfile=/var/log/thttpd.log
+pidfile=/var/run/thttpd.pid
+#vhost
+charset=gb2312
+#charset=utf-8
+cgipat=/cgi-bin/*/*
+# This section _documents_ defaults in effect
+#port=80
+# nosymlink# default = !chroot
+# novhost
+# nocgipat
+# nothrottles
+# host=0.0.0.0
+#charset=iso-8859-1

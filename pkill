@@ -1,0 +1,34 @@
+#!/bin/sh 
+#===============================================================================
+#
+#          FILE: pkill.sh
+# 
+#         USAGE: ./pkill.sh 
+# 
+#   DESCRIPTION: 
+# 
+#       OPTIONS: ---
+#  REQUIREMENTS: ---
+#          BUGS: ---
+#         NOTES: ---
+#        AUTHOR: YOUR NAME (), 
+#  ORGANIZATION: 
+#       CREATED: 2012年11月02日 17时29分57秒 CST
+#      REVISION:  ---
+#===============================================================================
+
+pid=`pidof $1`
+
+if [ -z "$1" ] ; then
+	echo para empty...
+	exit 1
+fi
+for __pid in `echo $pid`; do
+	kill -9 $__pid
+	if [ $? -eq 0 ] ; then
+		echo killed $__pid
+	else
+		echo "oh...something happend.."
+	fi
+
+done
