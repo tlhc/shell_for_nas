@@ -28,7 +28,7 @@ for __pid in `echo $pid`; do
 	if [ $? -eq 0 ] ; then
 		echo killed $__pid
 	else
-		echo "oh...something happend.."
+		echo "can't kill the process"
 	fi
 
 done

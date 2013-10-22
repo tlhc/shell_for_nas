@@ -1,5 +1,7 @@
 #! /bin/sh
-
+####
+#the init script for system
+####
 ifconfig eth1 down
 ifconfig eth1 hw ether 00:00:aa:bb:cc:dd
 ifconfig eth1 inet 192.168.1.67

@@ -5,7 +5,7 @@ Lun3|alias=ddd|bl_target=none|vol=/dev/sdd|lun_size=250G|lun_rmd_size=100G|"Lun 
 Lun4|alias=eee|bl_target=none|vol=/dev/sde|lun_size=250G|lun_rmd_size=100G|"Lun 1 Path=/dev/md0,Type=fileio,"
 Lun5|alias=fff|bl_target=none|vol=/dev/sdf|lun_size=250G|lun_rmd_size=100G|"Lun 2 Path=/dev/md0,Type=fileio,"
 
-
+#    example output
 #	<table_row>
 #		<lun_alias>
 #		</lun_alias>
